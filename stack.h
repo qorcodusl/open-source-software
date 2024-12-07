@@ -1,6 +1,8 @@
 #ifndef STACK_H
 #define STACK_H
 #include <stdbool.h> 
+#include <stdio.h>
+#define STACK_HEADER_LOADED printf("stach.h이 포함되었습니다\n")
 
 typedef int Item;
 typedef struct stack {
